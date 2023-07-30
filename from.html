@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration From</title>
+</head>
+<body>
+    <h2>Registration From</h2>
+    <div id="reg-from">
+        <from action="" method="">
+            <label for="first-name"  > First Name</label>
+            <input type="text" name="first-name" placeholder="Enter Your Name" required>
+            <br/>
+            <br>
+            <label for="Last-name"> Last Name </label>
+            <input type="text" name="last-name" placeholder="Enter Your Last Name" required>
+            <br>
+            <br>
+            <div>
+                <label for="male-gender">Male</label>
+                <input type="radio" name="gender" value="choice-1">
+                <label for="female-gender"> Female </label>
+                <input type="radio" name="gender" value="choice-2">
+                <label for="other-gender">Other</label>
+                <input type="radio" name="gender" value="choice-3">
+                <br>
+                <br>
+            </div> 
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Enter Your Email" required>
+                <br>
+                <br>
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="Enter Your Password" required>
+                <br>
+                <br>
+            </div>
+
+            <div>
+                <label for="month">Birthday</label>
+                <select name="month">
+                    <option value="0" selected disabled>Month</option>
+                    <option value="jan">Jan</option>
+                    <option value="feb">Feb</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                </select>
+                <br>
+                <br>
+                <label>I am Agree to All the Condition</label>
+                <input type="checkbox" name="agree">
+                <br>
+                <br>
+                <button type="submit">Submit</button>
+            </div>
+
+
+
+        </from>
+    </div>
+    
+</body>
+</html>
